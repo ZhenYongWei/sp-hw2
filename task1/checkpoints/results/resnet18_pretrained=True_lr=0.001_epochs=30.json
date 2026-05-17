@@ -1,0 +1,11 @@
+{
+  "model": "resnet18",
+  "pretrained": true,
+  "lr": 0.001,
+  "fc_lr": 0.01,
+  "epochs": 30,
+  "optimizer": "sgd",
+  "scheduler": "cosine",
+  "best_val_acc": 0.8764705882352941,
+  "test_acc": 0.863717677671166
+}

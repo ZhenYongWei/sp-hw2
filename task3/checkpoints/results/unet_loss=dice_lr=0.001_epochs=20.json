@@ -1,0 +1,7 @@
+{
+  "model": "UNet",
+  "loss_type": "dice",
+  "lr": 0.001,
+  "epochs": 20,
+  "best_val_miou": 0.4289025442886865
+}

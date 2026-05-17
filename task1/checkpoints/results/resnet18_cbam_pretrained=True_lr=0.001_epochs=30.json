@@ -1,0 +1,11 @@
+{
+  "model": "resnet18_cbam",
+  "pretrained": true,
+  "lr": 0.001,
+  "fc_lr": 0.01,
+  "epochs": 30,
+  "optimizer": "sgd",
+  "scheduler": "cosine",
+  "best_val_acc": 0.9,
+  "test_acc": 0.8864856074158399
+}

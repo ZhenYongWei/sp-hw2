@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local logs and caches
+*.log
+*.cache
+
+# SwanLab local runs
+task1/swanlog/run-*/
+task3/swanlog/run-*/
+
+# Checkpoints and large model files
+task1/checkpoints/*.pth
+task3/checkpoints/*.pth
+task2/runs/**/weights/*.pt
+
+# Generated videos and images
+task2/output/
+task2/*.mp4
+task2/*.avi
+task2/*.mov
+task2/*.mkv
+
+# Optional downloaded assets
+*.zip
+report.md
