@@ -19,6 +19,9 @@ task3/swanlog/run-*/
 task1/checkpoints/*.pth
 task3/checkpoints/*.pth
 task2/runs/**/weights/*.pt
+!task1/checkpoints/resnet18_pretrained=True_lr=0.001_epochs=50_best.pth
+!task2/runs/yolov8n_vehicle/weights/best.pt
+!task3/checkpoints/unet_loss=combined_lr=0.001_epochs=20_best.pth
 
 # Generated videos and images
 task2/output/
